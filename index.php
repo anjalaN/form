@@ -12,22 +12,22 @@
     <form  action="thanks.php"  method="post">
     <div>
       <label  for="nom">Nom :</label>
-      <input  type="text" name="user_name" >
+      <input  type="text" name="user_name" required>
     </div>
     <br>
    <div>
       <label  for="prenom">Prénom:</label>
-        <input  type="text"  id="prenom"  name="user_prenom">
+        <input  type="text"  id="prenom"  name="user_prenom" required>
     </div>
     <br>
     <div>
       <label  for="email">Email:</label>
-        <input  type="email"  id="email"  name="user_email">
+        <input  type="email"  id="email"  name="user_email" required>
     </div>
     <br>
     <div>
       <label for="telephone">Téléphone:</label>
-      <input type="text" name="user_telephone">
+      <input type="text" name="user_telephone" required>
     </div>
     <br>
 
